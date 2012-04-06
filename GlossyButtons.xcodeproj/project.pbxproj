@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2631B612152F8F3B0021BAEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2631B611152F8F3B0021BAEC /* UIKit.framework */; };
+		2631B614152F8F3B0021BAEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2631B613152F8F3B0021BAEC /* Foundation.framework */; };
+		2631B616152F8F3B0021BAEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2631B615152F8F3B0021BAEC /* CoreGraphics.framework */; };
+		2631B61C152F8F3B0021BAEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2631B61A152F8F3B0021BAEC /* InfoPlist.strings */; };
+		2631B61E152F8F3B0021BAEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2631B61D152F8F3B0021BAEC /* main.m */; };
+		2631B622152F8F3B0021BAEC /* GBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2631B621152F8F3B0021BAEC /* GBAppDelegate.m */; };
+		2631B625152F8F3B0021BAEC /* GBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2631B624152F8F3B0021BAEC /* GBViewController.m */; };
+		2631B628152F8F3B0021BAEC /* GBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2631B626152F8F3B0021BAEC /* GBViewController.xib */; };
+		2631B630152F8F530021BAEC /* GBGlossyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2631B62F152F8F530021BAEC /* GBGlossyButton.m */; };
+		2631B632152F903E0021BAEC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2631B631152F903E0021BAEC /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2631B60D152F8F3B0021BAEC /* GlossyButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlossyButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2631B611152F8F3B0021BAEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2631B613152F8F3B0021BAEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2631B615152F8F3B0021BAEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2631B619152F8F3B0021BAEC /* GlossyButtons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GlossyButtons-Info.plist"; sourceTree = "<group>"; };
+		2631B61B152F8F3B0021BAEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2631B61D152F8F3B0021BAEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2631B61F152F8F3B0021BAEC /* GlossyButtons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GlossyButtons-Prefix.pch"; sourceTree = "<group>"; };
+		2631B620152F8F3B0021BAEC /* GBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBAppDelegate.h; sourceTree = "<group>"; };
+		2631B621152F8F3B0021BAEC /* GBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBAppDelegate.m; sourceTree = "<group>"; };
+		2631B623152F8F3B0021BAEC /* GBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBViewController.h; sourceTree = "<group>"; };
+		2631B624152F8F3B0021BAEC /* GBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBViewController.m; sourceTree = "<group>"; };
+		2631B627152F8F3B0021BAEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GBViewController.xib; sourceTree = "<group>"; };
+		2631B62E152F8F530021BAEC /* GBGlossyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBGlossyButton.h; sourceTree = "<group>"; };
+		2631B62F152F8F530021BAEC /* GBGlossyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBGlossyButton.m; sourceTree = "<group>"; };
+		2631B631152F903E0021BAEC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2631B60A152F8F3B0021BAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2631B632152F903E0021BAEC /* QuartzCore.framework in Frameworks */,
+				2631B612152F8F3B0021BAEC /* UIKit.framework in Frameworks */,
+				2631B614152F8F3B0021BAEC /* Foundation.framework in Frameworks */,
+				2631B616152F8F3B0021BAEC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2631B602152F8F3B0021BAEC = {
+			isa = PBXGroup;
+			children = (
+				2631B617152F8F3B0021BAEC /* GlossyButtons */,
+				2631B610152F8F3B0021BAEC /* Frameworks */,
+				2631B60E152F8F3B0021BAEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2631B60E152F8F3B0021BAEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2631B60D152F8F3B0021BAEC /* GlossyButtons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2631B610152F8F3B0021BAEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2631B611152F8F3B0021BAEC /* UIKit.framework */,
+				2631B613152F8F3B0021BAEC /* Foundation.framework */,
+				2631B615152F8F3B0021BAEC /* CoreGraphics.framework */,
+				2631B631152F903E0021BAEC /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2631B617152F8F3B0021BAEC /* GlossyButtons */ = {
+			isa = PBXGroup;
+			children = (
+				2631B618152F8F3B0021BAEC /* Supporting Files */,
+				2631B620152F8F3B0021BAEC /* GBAppDelegate.h */,
+				2631B621152F8F3B0021BAEC /* GBAppDelegate.m */,
+				2631B623152F8F3B0021BAEC /* GBViewController.h */,
+				2631B624152F8F3B0021BAEC /* GBViewController.m */,
+				2631B626152F8F3B0021BAEC /* GBViewController.xib */,
+				2631B62E152F8F530021BAEC /* GBGlossyButton.h */,
+				2631B62F152F8F530021BAEC /* GBGlossyButton.m */,
+			);
+			path = GlossyButtons;
+			sourceTree = "<group>";
+		};
+		2631B618152F8F3B0021BAEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2631B619152F8F3B0021BAEC /* GlossyButtons-Info.plist */,
+				2631B61A152F8F3B0021BAEC /* InfoPlist.strings */,
+				2631B61D152F8F3B0021BAEC /* main.m */,
+				2631B61F152F8F3B0021BAEC /* GlossyButtons-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2631B60C152F8F3B0021BAEC /* GlossyButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2631B62B152F8F3B0021BAEC /* Build configuration list for PBXNativeTarget "GlossyButtons" */;
+			buildPhases = (
+				2631B609152F8F3B0021BAEC /* Sources */,
+				2631B60A152F8F3B0021BAEC /* Frameworks */,
+				2631B60B152F8F3B0021BAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlossyButtons;
+			productName = GlossyButtons;
+			productReference = 2631B60D152F8F3B0021BAEC /* GlossyButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2631B604152F8F3B0021BAEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GB;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "SmallSharpTools LLC";
+			};
+			buildConfigurationList = 2631B607152F8F3B0021BAEC /* Build configuration list for PBXProject "GlossyButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2631B602152F8F3B0021BAEC;
+			productRefGroup = 2631B60E152F8F3B0021BAEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2631B60C152F8F3B0021BAEC /* GlossyButtons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2631B60B152F8F3B0021BAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2631B61C152F8F3B0021BAEC /* InfoPlist.strings in Resources */,
+				2631B628152F8F3B0021BAEC /* GBViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2631B609152F8F3B0021BAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2631B61E152F8F3B0021BAEC /* main.m in Sources */,
+				2631B622152F8F3B0021BAEC /* GBAppDelegate.m in Sources */,
+				2631B625152F8F3B0021BAEC /* GBViewController.m in Sources */,
+				2631B630152F8F530021BAEC /* GBGlossyButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2631B61A152F8F3B0021BAEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2631B61B152F8F3B0021BAEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2631B626152F8F3B0021BAEC /* GBViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2631B627152F8F3B0021BAEC /* en */,
+			);
+			name = GBViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2631B629152F8F3B0021BAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2631B62A152F8F3B0021BAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2631B62C152F8F3B0021BAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GlossyButtons/GlossyButtons-Prefix.pch";
+				INFOPLIST_FILE = "GlossyButtons/GlossyButtons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2631B62D152F8F3B0021BAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GlossyButtons/GlossyButtons-Prefix.pch";
+				INFOPLIST_FILE = "GlossyButtons/GlossyButtons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2631B607152F8F3B0021BAEC /* Build configuration list for PBXProject "GlossyButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2631B629152F8F3B0021BAEC /* Debug */,
+				2631B62A152F8F3B0021BAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2631B62B152F8F3B0021BAEC /* Build configuration list for PBXNativeTarget "GlossyButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2631B62C152F8F3B0021BAEC /* Debug */,
+				2631B62D152F8F3B0021BAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2631B604152F8F3B0021BAEC /* Project object */;
+}
