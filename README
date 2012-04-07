@@ -4,3 +4,18 @@ SmallSharpTools LLC - 2012
 Derived from GlossButton by Codepadawan
 GitHub: https://github.com/Codepadawan/GlossButton
 Blog: http://www.codepadawan.com/2011/06/iphone-glossy-buttons.html
+
+This difference between this version and the original is that I wanted
+to work in Interface Builder to manage my views. To do this all styling
+for the text is done in IB and the background color for the button is
+used as the drawing colors and the background color is then reset to 
+clear. The samples in this project show that you can have multiple
+buttons with different colors and sizes as well as different styles
+for the button label.
+
+To use in your own project you just need the GBGlossyButton class
+and then set the class if your UIButton in IB to GBGlossyButton.
+InitWithCoder will read your background color and use it from there.
+
+You can set the color later as well if you choose and the button
+will change to the given color.
