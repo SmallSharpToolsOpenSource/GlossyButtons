@@ -17,6 +17,7 @@
 		2631B628152F8F3B0021BAEC /* GBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2631B626152F8F3B0021BAEC /* GBViewController.xib */; };
 		2631B630152F8F530021BAEC /* GBGlossyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2631B62F152F8F530021BAEC /* GBGlossyButton.m */; };
 		2631B632152F903E0021BAEC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2631B631152F903E0021BAEC /* QuartzCore.framework */; };
+		2631B634152FBA850021BAEC /* README in Resources */ = {isa = PBXBuildFile; fileRef = 2631B633152FBA840021BAEC /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		2631B62E152F8F530021BAEC /* GBGlossyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBGlossyButton.h; sourceTree = "<group>"; };
 		2631B62F152F8F530021BAEC /* GBGlossyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBGlossyButton.m; sourceTree = "<group>"; };
 		2631B631152F903E0021BAEC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2631B633152FBA840021BAEC /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		2631B617152F8F3B0021BAEC /* GlossyButtons */ = {
 			isa = PBXGroup;
 			children = (
+				2631B633152FBA840021BAEC /* README */,
 				2631B618152F8F3B0021BAEC /* Supporting Files */,
 				2631B620152F8F3B0021BAEC /* GBAppDelegate.h */,
 				2631B621152F8F3B0021BAEC /* GBAppDelegate.m */,
@@ -161,6 +164,7 @@
 			files = (
 				2631B61C152F8F3B0021BAEC /* InfoPlist.strings in Resources */,
 				2631B628152F8F3B0021BAEC /* GBViewController.xib in Resources */,
+				2631B634152FBA850021BAEC /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
